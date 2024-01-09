@@ -7,5 +7,8 @@ public class Variables {
         int c=23;
         int sum=a+b+c;
         System.out.println(sum);
+
+        //ques2
+        
     }
 }
