@@ -41,6 +41,6 @@ public class Loops {
          fact=fact*i;
     }
     System.out.println(fact);
-
+   sc.close();
 }
 }
