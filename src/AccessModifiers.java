@@ -14,6 +14,12 @@ class Cylinder{
     public int getHeight(){
         return height;
     }
+    public float surfaceArea(){
+        return 2*22/7*radius*(radius+height);
+    }
+    public float volume(){
+        return 22/7*radius*radius*height;
+    }
 }
 
 public class AccessModifiers {
@@ -23,5 +29,7 @@ public class AccessModifiers {
         System.out.println(c.getRadius());
         c.setHeight(12);
         System.out.println(c.getHeight());
+        System.out.println(c.surfaceArea());
+        System.out.println(c.volume());
     }
 }
