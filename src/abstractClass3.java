@@ -15,13 +15,13 @@ class Smartphone extends Telephone{
         this.pno=pno;
     }
     public void ring (int pno){
-        System.out.println("Ringing :"+pno);
+        System.out.println("Ringing :"+ pno);
     }
     public void lift(){
         System.out.println("Lifting the call");
     }
     public void disconnect(int pno){
-        System.out.println("Disconnecting :"+pno);
+        System.out.println("Disconnecting :"+ pno);
     }
 }
 
